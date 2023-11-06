@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "arr",
+						"type": "uint256[]"
+					}
+				],
+				"name": "average",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SimpleArray.sol": "SimpleArray"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SimpleArray.sol": {
+			"keccak256": "0x7eabc51c9fac05c391e2fba020529459f5589c38cd12a271891ec0095cca1a7a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://46f38b1eade7d0b3b330c68f074c9cf4c847b6d8a66ba7668ad9f673639a179d",
+				"dweb:/ipfs/QmZoXwtEhsa1QiuZ2g8J5WQfWmkzp3XTEEa23ELayymTFX"
+			]
+		}
+	},
+	"version": 1
+}
